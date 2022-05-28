@@ -10,6 +10,8 @@ import StorageComponent from "./hooks/useStorage/examples";
 import AsyncComponent from "./hooks/useAsync/examples";
 import FetchComponent from "./hooks/useFetch/examples";
 import ScriptComponent from "./hooks/useScript/examples";
+import DeepCompareEffectComponent from "./hooks/useDeepCompareEffect/examples";
+import EventListenerComponent from "./hooks/useEventListener/examples";
 
 function App() {
   return (
@@ -36,6 +38,11 @@ function App() {
       <FetchComponent/>
       <h1>script component</h1>
       <ScriptComponent/>
+      <h1>useDeepcompareEffect</h1>
+      <DeepCompareEffectComponent/>
+      <h1>Event listener</h1>
+      <EventListenerComponent/>
+
     </div>
   );
 }
