@@ -6,7 +6,8 @@ import UpdateEffectComponent from "./hooks/useUpdateEffect/examples/index";
 import ArrayComponent from "./hooks/useArray/examples/index";
 import PreviousComponent from "./hooks/usePrevious/examples/index";
 import StateWithHistoryComponent from "./hooks/useStateWithHistory/examples";
-
+import StorageComponent from "./hooks/useStorage/examples";
+import AsyncComponent from "./hooks/useAsync/examples";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <ArrayComponent/>
       <PreviousComponent/>
       <StateWithHistoryComponent/>
+      <StorageComponent/>
+      <AsyncComponent/>
     </div>
   );
 }
