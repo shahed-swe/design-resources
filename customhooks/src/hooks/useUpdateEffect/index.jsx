@@ -12,7 +12,7 @@ const useUpdateEffect = (callback, dependencies) => {
             return
         }
         return callback()
-    }, dependencies)
+    }, [dependencies, callback])
 }
 
 export default useUpdateEffect

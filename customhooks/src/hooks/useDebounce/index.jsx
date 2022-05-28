@@ -7,7 +7,7 @@ const useDebouce = (callback, delay, dependencies) => {
 
     // making debouncer
     useEffect(reset, [...dependencies, reset])
-    useEffect(clear, [])
+    useEffect(clear, [clear])
 }
 
 export default useDebouce
