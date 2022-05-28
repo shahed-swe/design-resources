@@ -14,6 +14,7 @@ import DeepCompareEffectComponent from "./hooks/useDeepCompareEffect/examples";
 import EventListenerComponent from "./hooks/useEventListener/examples";
 import OnScreenComponent from "./hooks/useOnScreen/examples";
 import WindowSizeComponent from "./hooks/useWIndowSize/examples";
+import StateWithValidationComponent from "./hooks/useStateWithValidation/examples";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
       <OnScreenComponent/>
       <h1>Window Size Component</h1>
       <WindowSizeComponent/>
+      <h1>State with Validation</h1>
+      <StateWithValidationComponent/>
     </div>
   );
 }
