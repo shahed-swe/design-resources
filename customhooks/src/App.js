@@ -13,6 +13,7 @@ import ScriptComponent from "./hooks/useScript/examples";
 import DeepCompareEffectComponent from "./hooks/useDeepCompareEffect/examples";
 import EventListenerComponent from "./hooks/useEventListener/examples";
 import OnScreenComponent from "./hooks/useOnScreen/examples";
+import WindowSizeComponent from "./hooks/useWIndowSize/examples";
 
 function App() {
   return (
@@ -45,6 +46,8 @@ function App() {
       <EventListenerComponent/>
       <h1>On Screent Component</h1>
       <OnScreenComponent/>
+      <h1>Window Size Component</h1>
+      <WindowSizeComponent/>
     </div>
   );
 }
