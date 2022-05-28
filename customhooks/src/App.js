@@ -12,6 +12,7 @@ import FetchComponent from "./hooks/useFetch/examples";
 import ScriptComponent from "./hooks/useScript/examples";
 import DeepCompareEffectComponent from "./hooks/useDeepCompareEffect/examples";
 import EventListenerComponent from "./hooks/useEventListener/examples";
+import OnScreenComponent from "./hooks/useOnScreen/examples";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       <DeepCompareEffectComponent/>
       <h1>Event listener</h1>
       <EventListenerComponent/>
-
+      <h1>On Screent Component</h1>
+      <OnScreenComponent/>
     </div>
   );
 }
