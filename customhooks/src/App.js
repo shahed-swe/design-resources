@@ -5,6 +5,7 @@ import ToggleComponent from "./hooks/useToogle/examples/index";
 import UpdateEffectComponent from "./hooks/useUpdateEffect/examples/index";
 import ArrayComponent from "./hooks/useArray/examples/index";
 import PreviousComponent from "./hooks/usePrevious/examples/index";
+import StateWithHistoryComponent from "./hooks/useStateWithHistory/examples";
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       <TimeOutComponent/>
       <ToggleComponent/>
       <UpdateEffectComponent/>
-      {/* <ArrayComponent/> */}
+      <ArrayComponent/>
       <PreviousComponent/>
+      <StateWithHistoryComponent/>
     </div>
   );
 }

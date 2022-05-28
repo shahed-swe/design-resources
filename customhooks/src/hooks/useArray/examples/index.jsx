@@ -2,7 +2,7 @@ import useArray from "..";
 
 
 const ArrayComponent = () => {
-    const [array, set, push, remove, filter, update, clear] = useArray([
+    const {array, set, push, remove, filter, update, clear} = useArray([
         1,2,3,4,5,6,7,8
     ])
 
